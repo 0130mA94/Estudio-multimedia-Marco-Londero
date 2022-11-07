@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Playfair+Display:wght@500&family=Roboto:ital,wght@1,300&family=Yuji+Syuku&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     height: 80px;
     width: 100%;
     background-color: red;
@@ -17,13 +18,16 @@ header{
     padding: 20px;
     text-shadow: 0 0 5px white;
 }
-.logo{
+
+.logo {
     display: flex;
     flex-wrap: nowrap;
 }
-.logo span{
+
+.logo span {
     color: black;
 }
+
 .checkbtn {
     color: black;
     background: none;
@@ -34,56 +38,66 @@ header{
     cursor: pointer;
 
 }
-.menu{
+
+.menu {
     display: none;
     cursor: pointer;
+    visibility: hidden;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     max-width: 992px;
     margin: 0 auto;
 
 }
-.nav-link{
+
+.nav-link {
     color: white;
     text-decoration: none;
 }
-.nav-menu{
+
+.nav-menu {
     display: flex;
     margin-right: 40px;
     list-style: none;
 }
-.nav-menu-item{
+
+.nav-menu-item {
     font-size: 18px;
     margin: 0 10px;
     line-height: 80px;
-    text-transform: uppercase ;
+    text-transform: uppercase;
     width: max-content;
 }
-.nav-menu-link{
+
+.nav-menu-link {
     padding: 3px 8px;
     border-radius: 3px;
 
 }
-.nav-menu-link:hover{
-    background-color:rgb(26, 23, 23) ;
+
+.nav-menu-link:hover {
+    background-color: rgb(26, 23, 23);
     transition: 0.5s;
     border-radius: 5px;
 }
-#nav-button{
+
+#nav-button {
     display: none;
     visibility: hidden;
 }
-main{
+
+main {
     background-image: url(multi/estudio-fotográfi.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100%;
 }
-.call{
+
+.call {
     width: 500px;
     background-color: rgba(0, 0, 0, 0.6);
     border: 2px solid #000;
@@ -91,12 +105,14 @@ main{
     margin: 0;
     padding: 10px;
 }
-.call p{
+
+.call p {
     color: whitesmoke;
     margin-bottom: 20px;
 
 }
-.callb{
+
+.callb {
     background-color: red;
     text-decoration: none;
     color: aliceblue;
@@ -106,112 +122,126 @@ main{
     font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h1{
+
+h1 {
     color: rgb(195, 26, 26);
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    text-shadow:0 0 5px black;
+    text-shadow: 0 0 5px black;
     margin-bottom: 10px;
 }
-.comienzo{color: black;
-    font-family:'Roboto', sans-serif;
+
+.comienzo {
+    color: black;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
-    text-shadow:0 0 5px white;
+    text-shadow: 0 0 5px white;
     margin-bottom: 10px;
     padding: 40px;
 
 }
+
 .cuerpo {
     background-color: black;
     color: white;
     font-size: 20px;
-    
- }
- body{
-    height:100vh;
-    
-
- }
- .consulta{
-    margin: 0 20px;
-    padding: 5px;
- }
- .forma{
-    margin: 0 20px;
-    padding: 5px;
- }
- .fondo{
-    background-color: black;
-    background-image: linear-gradient(to left, black, red);
-    
- }
- .sec {
-    height: auto;
-    width: 30%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(7,400px 400px);
-    grid-gap: 20px ;
-    padding: 100px 30px;
 
 }
- .item {
-    width: 100%;
-   border: 2px solid white; 
-   padding: 30px;
-   margin: 30px;
- }
- .item:hover{
+
+.consulta {
+    margin: 0 20px;
+    padding: 5px;
+}
+
+.forma {
+    margin: 0 20px;
+    padding: 5px;
+}
+
+.fondo {
+    background-color: black;
+    background-image: linear-gradient(to left, black, red);
+
+
+}
+
+.sec {
+    height: auto;
+    width: 20em;
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    /* grid-template-rows: repeat(3, 400px); */
+    
+
+}
+
+.item {
+    height: 20em;
+    width: 20em;
+    border: 2px solid white;
+    margin: 30px;
+    padding-top: 5px;
+
+}
+
+.item:hover {
     transform: scale(1.2);
     transition: all 1.5s;
- }
- 
- .item1{
+}
+
+.item1 {
     background-image: url(./multi/Atardeceres.jpg);
     background-size: cover;
     background-position: center;
-    
- }
- .item2{
+
+}
+
+.item2 {
     background-image: url(./multi/Calma\ después\ de\ la\ tormenta.jpg);
     background-size: cover;
     background-position: center;
- }
- .item3{
+}
+
+.item3 {
     background-image: url(./multi/Día\ de\ campo.jpg);
     background-size: cover;
     background-position: center;
- }
- .item4{
+}
+
+.item4 {
     background-image: url(./multi/Mar\ y\ Aves.jpg);
     background-size: cover;
     background-position: center;
- }
- .item5{
+}
+
+.item5 {
     background-image: url(./multi/Mates\ de\ Domingo.jpg);
     background-size: cover;
     background-position: center;
- }
- .item6{
+}
+
+.item6 {
     background-image: url(./multi/Noche\ estrellada.jpg);
     background-size: cover;
     background-position: center;
- } .item7{
+}
+
+.item7 {
     background-image: url(./multi/placeres.jpg);
     background-size: cover;
     background-position: center;
- }
- 
- .fotoChris {
+}
+
+.fotoChris {
     width: 20vw;
-    border:2px solid red;
+    border: 2px solid red;
     border-radius: 5px;
     margin: 1em;
-    
 
- }
- 
- .produ{
+
+}
+
+.produ {
     background-color: black;
     background-image: linear-gradient(to left, black, red);
     /* display: flex;
@@ -219,26 +249,31 @@ h1{
     flex-wrap: nowrap;
     justify-content: space-evenly; */
     padding: 20px;
-   
- }
- .video1{
-    border:3px solid black;
+
+}
+
+.video1 {
+    border: 3px solid black;
     border-radius: 6px;
     margin: 1em;
- }
- .cright{
+}
+
+.cright {
     padding: 100px;
- }
- .cleft {
+}
+
+.cleft {
     margin: 2em;
- }
- .Bio {
+}
+
+.Bio {
     color: rgb(202, 162, 162);
     font-size: 20px;
     margin: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
- }
- footer {
+}
+
+footer {
     background-color: red;
     background-image: radial-gradient(red, black);
     text-align: center;
@@ -246,27 +281,27 @@ h1{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     padding: 1%;
-    width:100%;
+    width: 100%;
 }
- 
- .derechos {
+
+.derechos {
     color: black;
- }
- 
- .redes {
+}
+
+.redes {
     font-size: 35px;
     letter-spacing: 10px;
- }
- 
- .redes a {
+}
+
+.redes a {
     color: aliceblue;
- }
- 
- .redes a:hover {
+}
+
+.redes a:hover {
     color: black;
- }
- 
- .subir {
+}
+
+.subir {
     height: 40px;
     width: 40px;
     background-color: white;
@@ -279,8 +314,8 @@ h1{
     font-size: 30px;
     border-radius: 50%;
     box-shadow: 2px 1px;
- }
- 
+}
+
 
 
 @media only screen and (max-width: 480px) {
@@ -305,16 +340,21 @@ h1{
         line-height: 60px;
         cursor: pointer;
         display: block;
-    
+
     }
-    .nav{
+
+    .nav {
         display: block;
 
     }
-    .menu{
+
+    .menu {
         display: block;
         cursor: pointer;
+        visibility: visible;
+
     }
+
     .nav-menu {
         flex-direction: column;
         align-items: center;
@@ -331,12 +371,12 @@ h1{
         font-size: 20px;
         transition: all .5s;
     }
-    
+
 
     .nav-menu-item {
         display: block;
-        margin: 50px 0 ;
-        line-height: 30px;   
+        margin: 50px 0;
+        line-height: 30px;
     }
 
     .nav-menu-link {
@@ -348,26 +388,26 @@ h1{
         background: none;
         color: grey;
     }
-    #nav-button:checked ~ ul {
+
+    #nav-button:checked~ul {
         left: 0;
-    } 
+    }
 
 
     main {
         background-image: url(multi/estudio-fotográfi.jpg);
         background-size: cover;
         background-position: center;
-        height: 100vh;
-        width: 100%;
+        padding: 5px;
     }
 
     .call {
-        width: 500px;
+        width: 350px;
         background-color: rgba(0, 0, 0, 0.6);
         border: 2px solid #000;
         border-radius: 10px;
-        margin: 20px;
         padding: 10px;
+        margin-left: 10px;
     }
 
     .call p {
@@ -393,108 +433,129 @@ h1{
         font-size: 25px;
         margin-bottom: 10px;
     }
+
     .fotoChris {
         text-align: center;
         width: 60vw;
-        border:2px solid red;
+        border: 2px solid red;
         border-radius: 5px;
         margin: 1em;
-    
-     }
-.cuerpo {
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    
- }
- body{height: 100vh;
-   
- }
- .consulta{
-    margin: 0 20px;
-    padding: 5px;
- }
- .forma{
-    margin: 0 20px;
-    padding: 5px;
- }
- .fondo{
-    height: 100vh;
-    background-color: black;
-    background-image: linear-gradient(to left, black, red);
-    width: 100%;
-    height: auto;
-    
- }
- .sec {
-    height: auto;
-    width: 30%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(2,220px 220px);
-    /* grid-gap: 20px ; */
 
-}
- .item {
-   border: 2px solid white; 
-   padding: 30px;
-   margin: 30px;
- }
-.video{
-    background-image: linear-gradient(to top, red, white,black);
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    padding: 20px;
-    border: 3px;
-    border-radius: 5px;
- }
- .produ{
-    border: 5px;
-    border-color: 2px solid black;
-    border-radius: 5px;
- } 
-footer {
-    background-color: red;
-    background-image: radial-gradient(red, black);
-    text-align: center;
-    font-size: 10px;
-    font-family: 'Roboto', sans-serif;
-    padding: 1%;
+    }
 
+    .cuerpo {
+        background-color: black;
+        color: white;
+        font-size: 20px;
+
+    }
+
+    body {
+        height: 100vh;
+
+    }
+
+    .consulta {
+        margin: 0 20px;
+        padding: 5px;
+    }
+
+    .forma {
+        margin: 0 20px;
+        padding: 5px;
+    }
+
+    .fondo {
+        height: 100vh;
+        background-color: black;
+        background-image: linear-gradient(to left, black, red);
+        width: 100vh;
+        height: auto;
+
+    }
+
+    .sec {
+        height: auto;
+        width: 20em;
+        display: grid;
+        grid-template-columns: repeat(2, 400px);
+        /* grid-template-rows: repeat(3, 400px); */
+        
     
- }
- 
- .derechos {
-    color: black;
- }
- 
- .redes {
-    font-size: 35px;
-    letter-spacing: 10px;
- }
- 
- .redes a {
-    color: aliceblue;
- }
- 
- .redes a:hover {
-    color: black;
- }
- 
- .subir {
-    height: 40px;
-    width: 40px;
-    background-color: white;
-    border: 4px solid black;
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    color: red;
-    text-align: center;
-    font-size: 30px;
-    border-radius: 50%;
-    box-shadow: 2px 1px;
- }
+    }
+    
+    .item {
+        height: 20em;
+        width: 20em;
+        border: 2px solid white;
+        margin: 30px;
+        padding-top: 5px;
+    
+    }
+    .item:hover {
+        transform: scale(1.1);
+        transition: all 1.5s;
+    }
+    
+
+    .video {
+        background-image: linear-gradient(to top, red, white, black);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        padding: 20px;
+        border: 3px;
+        border-radius: 5px;
+    }
+
+    .produ {
+        border: 5px;
+        border-color: 2px solid black;
+        border-radius: 5px;
+    }
+
+    footer {
+        background-color: red;
+        background-image: radial-gradient(red, black);
+        text-align: center;
+        font-size: 10px;
+        font-family: 'Roboto', sans-serif;
+        padding: 1%;
+        width: 100vh;
+
+
+    }
+
+    .derechos {
+        color: black;
+    }
+
+    .redes {
+        font-size: 35px;
+        letter-spacing: 10px;
+    }
+
+    .redes a {
+        color: aliceblue;
+    }
+
+    .redes a:hover {
+        color: black;
+    }
+
+    .subir {
+        height: 40px;
+        width: 40px;
+        background-color: white;
+        border: 4px solid black;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        color: red;
+        text-align: center;
+        font-size: 30px;
+        border-radius: 50%;
+        box-shadow: 2px 1px;
+    }
 }

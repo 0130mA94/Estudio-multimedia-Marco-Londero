@@ -466,11 +466,8 @@ footer {
     }
 
     .fondo {
-        height: 100vh;
         background-color: black;
         background-image: linear-gradient(to left, black, red);
-        width: 100vh;
-        height: auto;
 
     }
 
@@ -478,9 +475,8 @@ footer {
         height: auto;
         width: 20em;
         display: grid;
-        grid-template-columns: repeat(2, 400px);
-        /* grid-template-rows: repeat(3, 400px); */
-        
+        grid-template-columns: none;
+        grid-template-rows: none;
     
     }
     
@@ -522,7 +518,6 @@ footer {
         font-size: 10px;
         font-family: 'Roboto', sans-serif;
         padding: 1%;
-        width: 100vh;
 
 
     }

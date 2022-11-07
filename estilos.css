@@ -27,7 +27,6 @@ header {
 .logo span {
     color: black;
 }
-
 /* .checkbtn {
     color: black;
     background: none;
@@ -246,7 +245,6 @@ h1 {
     background-image: linear-gradient(to left, black, red);
     /* display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     justify-content: space-evenly; */
     padding: 20px;
 
@@ -319,7 +317,21 @@ footer {
 
 
 @media only screen and (max-width: 480px) {
-
+    .navbar.brand{
+        color: #000;
+    }
+    .navbar{
+        background-color: cover;
+        align-items: center;
+        position: relative;
+        margin: -5px;
+    }
+    #collapsibleNavbar{
+        background-color: rgb(54, 53, 53);
+        align-content: center;
+        font-size: 22px;
+        right: 10%;
+    }
 
     main {
         background-image: url(multi/estudio-fotográfi.jpg);

@@ -28,7 +28,7 @@ header {
     color: black;
 }
 
-.checkbtn {
+/* .checkbtn {
     color: black;
     background: none;
     border: none;
@@ -87,7 +87,7 @@ header {
 #nav-button {
     display: none;
     visibility: hidden;
-}
+} */
 
 main {
     background-image: url(multi/estudio-fotográfi.jpg);
@@ -319,79 +319,6 @@ footer {
 
 
 @media only screen and (max-width: 480px) {
-
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 60px;
-    }
-
-    .logo span {
-        color: black;
-    }
-
-    .checkbtn {
-        color: black;
-        background: none;
-        border: none;
-        font-size: 30px;
-        padding: 0 20px;
-        line-height: 60px;
-        cursor: pointer;
-        display: block;
-
-    }
-
-    .nav {
-        display: block;
-
-    }
-
-    .menu {
-        display: block;
-        cursor: pointer;
-        visibility: visible;
-
-    }
-
-    .nav-menu {
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        list-style: none;
-        background-color: rgb(33, 30, 30);
-        position: fixed;
-        left: 100%;
-        top: 60px;
-        width: 100%;
-        padding: 20px 0;
-        justify-content: center;
-        height: 100vh;
-        font-size: 20px;
-        transition: all .5s;
-    }
-
-
-    .nav-menu-item {
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-
-    .nav-menu-link {
-        padding: 3px 8px;
-        border-radius: 3px;
-    }
-
-    .nav-menu-link:hover {
-        background: none;
-        color: grey;
-    }
-
-    #nav-button:checked~ul {
-        left: 0;
-    }
 
 
     main {
